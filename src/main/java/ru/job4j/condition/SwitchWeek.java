@@ -18,6 +18,7 @@ public class SwitchWeek {
                 break;
             case 5 :
                 name = "Пятница";
+                break;
             case 6 :
                 name = "Суббота";
                 break;
