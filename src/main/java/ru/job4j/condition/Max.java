@@ -10,7 +10,6 @@ public class Max {
     }
 
     public static int summation(int first, int second, int third, int fourth) {
-        int temp = summation(second, third, fourth);
-        return summation(first, temp);
+        return summation(first, summation(second, third, fourth));
     }
 }
