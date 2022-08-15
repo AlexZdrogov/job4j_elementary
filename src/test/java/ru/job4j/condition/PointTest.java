@@ -24,11 +24,11 @@ public class PointTest {
     }
 
     @Test
-    public void when20to20then0() {
-        Point a = new Point(2, 0);
-        Point b = new Point(2, 0);
-        double out = a.distance(b);
-        double expected = 0;
+    public void when200to202then2() {
+        Point a = new Point(2, 0, 0);
+        Point b = new Point(2, 0, 2);
+        double out = a.distance3d(b);
+        double expected = 2;
         Assert.assertEquals(expected, out, 0.01);
     }
 
